@@ -1,2 +1,18 @@
 
-git clone URL NOME-DA-PASTA
+adaptando pasta para git    
+    -> git init 
+
+clonando repositorio para ambiente local
+    -> git clone URL NOME-DA-PASTA
+
+Adicionando arquivos na stage area
+    -> git add 'nome do arquivo' || git add --all
+
+Gerando commit para 'empurrar' para controle de versão
+    -> git commit -m "Mensagem a ser exibida/Qual a razão do comit/Observações"    
+
+preparando repositorio para receber o comit
+    -> git remote add origin URL
+
+enviando arquivos para pasta master
+    -> git push origin master
