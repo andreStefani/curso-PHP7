@@ -26,6 +26,14 @@
     $frutas = array('abacaxi', 'laranja', 'manga');
     echo 'Fruta selecionada: '.$frutas[2]; /* EXIBINDO O VALOR CONTIDO NA POSIÇÃO 2 DO VETOR */   
 
+    /* retorna valor passado pela url '?user=123' */
+    /* Variavel super global => $_GET[] */
+    var_dump($_GET['user']);/* http://localhost/udemy/PHP-7/Modulo%2001/01-variaveis.php?user=123 */
 
+    /* URL (Uniform Resource Locator) => exemplo => www.google.com.br */
+    /* URI (Uniform Resource Identifier) => partes identificadoras da url 'www','.com','.br' */
+
+
+    echo '<hr>';
 
 ?>
